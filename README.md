@@ -69,3 +69,7 @@ Age는 20~30대가 가장 많아보인다. RoomService, FoodCourt, ShoppingMall,
 ## 🚀Modeling
 
 모델은 크게 네가지 모델을 사용하였다. 
+
+![image](https://user-images.githubusercontent.com/114843451/227535810-6c406ab6-6b36-4ad1-b2bc-f35a86e1c978.png)
+
+4가지 모델중 xgboost와 lgbm이 제일 잘나왔다. 
