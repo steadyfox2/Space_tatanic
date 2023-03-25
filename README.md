@@ -68,8 +68,34 @@ Age는 20~30대가 가장 많아보인다. RoomService, FoodCourt, ShoppingMall,
 
 ## 🚀Modeling
 
-모델은 크게 네가지 모델을 사용하였다. 
+### 모델은 크게 네가지 모델을 사용하였다. 
 
-![image](https://user-images.githubusercontent.com/114843451/227535810-6c406ab6-6b36-4ad1-b2bc-f35a86e1c978.png)
+<img src = "https://user-images.githubusercontent.com/114843451/227535810-6c406ab6-6b36-4ad1-b2bc-f35a86e1c978.png" width="50%" height="50%">
 
-4가지 모델중 xgboost와 lgbm이 제일 잘나왔다. 
+4가지 모델중 xgboost와 lgbm이 제일 잘나왔다. 아무래도 캐글에서는 xgboost가 제일 많이 쓰이니 최종적으로는 xgboost를 사용해보았다. 
+
+### ✈️ 앙상블 결과
+
+<img src = "https://user-images.githubusercontent.com/114843451/227687326-aa41b2dc-3ae8-40c1-9012-0e8977c1a169.png" width="50%" height="50%">
+
+### ✈️ xgboost 하이퍼파라미터 수정
+
+<img src = "https://user-images.githubusercontent.com/114843451/227688639-7fe37d24-6bdf-4cf1-9f34-5379e7d04192.png" width="50%" height="50%">
+
+### ✈️ xgboost 결과
+
+<img src = "https://user-images.githubusercontent.com/114843451/227688226-72d6e695-b889-49a9-86de-cc74cabe09fe.png" width="50%" height="50%">
+
+### ✈️ xgboost 평가 
+
+<img src = "https://user-images.githubusercontent.com/114843451/227689134-a4f134f0-581c-4e79-9421-5d53b327eaa4.png" width="50%" height="50%">
+
+### 👑 Kaggle submission
+
+<img src = "https://user-images.githubusercontent.com/114843451/227689259-e98fa521-5d80-40e5-b500-7f52b18e445f.png" width="50%" height="50%">
+
+제일 잘나온 하이퍼라미터 수정이 있었는데 어디다가 날렸는지 날 안나온다. 최종적으로는 317위를 기록하였다. 
+
+
+
+
